@@ -2,10 +2,14 @@
 env/
 venv/
 
+*/migrations/
+
 __pycache__/
 *.py[cod]
+*.env
 
 .idea
+.tests
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -15,5 +19,6 @@ __pycache__/
 *.sublime-workspace
 
 media/
+sent_emails/
 
 db.sqlite3
